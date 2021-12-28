@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.junit5app.ejemplos.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 7.204 s <<< FAILURE! - in com.example.junit5app.ejemplos.models.CuentaTest
+testDebitoCuentaCsvSource2{String, String, String, String}[3]  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.example.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:344)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[6]  Time elapsed: 0.025 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.example.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:344)
+
+testDebitoCuentaValueSource{String}[6]  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.example.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaValueSource(CuentaTest.java:320)
+
